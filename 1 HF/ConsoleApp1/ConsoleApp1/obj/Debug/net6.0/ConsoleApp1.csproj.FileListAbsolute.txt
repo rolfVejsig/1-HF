@@ -1,0 +1,15 @@
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.exe
+C:\Users\HFGF\Source\Repos\rolfVejsig\1-HF\1 HF\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.deps.json
+C:\Users\HFGF\Source\Repos\rolfVejsig\1-HF\1 HF\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.runtimeconfig.json
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.dll
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\ConsoleApp1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.pdb
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfo.cs
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.dll
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\refint\ConsoleApp1.dll
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.pdb
+C:\Users\HFGF\Source\Repos\rolfVejsig\1-HF\1 HF\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.genruntimeconfig.cache
+C:\Users\HFGF\Source\Repos\rolfVejsig\1-HF\1 HF\ConsoleApp1\ConsoleApp1\obj\Debug\net6.0\ref\ConsoleApp1.dll

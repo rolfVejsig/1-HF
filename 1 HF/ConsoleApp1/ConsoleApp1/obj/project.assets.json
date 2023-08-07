@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HFGF\\source\\repos\\rolfVejsig\\1-HF\\1 HF\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
-      "projectName": "ConsoleApp1",
-      "projectPath": "C:\\Users\\HFGF\\source\\repos\\rolfVejsig\\1-HF\\1 HF\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "C:\\Users\\HFGF\\source\\repos\\rolfVejsig\\1-HF\\1 HF\\ConsoleApp1\\ConsoleApp1\\Loops.csproj",
+      "projectName": "Loops",
+      "projectPath": "C:\\Users\\HFGF\\source\\repos\\rolfVejsig\\1-HF\\1 HF\\ConsoleApp1\\ConsoleApp1\\Loops.csproj",
       "packagesPath": "C:\\Users\\HFGF\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\HFGF\\source\\repos\\rolfVejsig\\1-HF\\1 HF\\ConsoleApp1\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
