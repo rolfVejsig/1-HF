@@ -2,8 +2,6 @@
 {
     internal class Program
     {
-
-        //hej igen :)
         static void Main(string[] args)
         {
             //Add two numbers
