@@ -1,4 +1,11 @@
-﻿namespace ConsoleApp1
+﻿using System.Collections.Generic;
+using System;
+using System.Data.SqlTypes;
+using System.Text;
+using System.ComponentModel;
+using System.Reflection.Metadata;
+
+namespace ConsoleApp1
 {
     internal class Program
     {
@@ -106,8 +113,80 @@
             Console.WriteLine("\n");
             SieveOfEratosthenes(30);
 
+            //Extract string M
+            //Given a string, write a method that returns substring from between two double hash signs (#). expected input ExtractString("##abc##def") expected output "abc"
+            static string ExtractString(string str)
+            {
+                int firstHash = str.IndexOf("##");
 
+                if (firstHash >= 0)
+                {
+                    int secondHash = str.IndexOf("##", firstHash + 2);
 
+                    if (secondHash >= 0) 
+                    {
+                        return str.Substring(firstHash + 2, secondHash - firstHash - 2);
+                    }
+                }
+                return string.Empty; 
+            }
+
+            Console.WriteLine("\n");
+            Console.WriteLine(ExtractString("##abc##def"));
+            Console.WriteLine(ExtractString("12####78"));
+            Console.WriteLine(ExtractString("gar##d#en"));
+            Console.WriteLine(ExtractString("++##--##++"));
+
+            //Full sequence of letters M
+            //Given a string of two letters, where first one occurs before the second in the alphabet, write a method that returns full sequence of letters starting from first and ending at the second one.
+            static string FullSequenceOfLetters(string str)
+            {
+                string result = string.Empty;
+                for (char i = str[0]; i <= str[1]; i++)
+                {
+                    result += i;
+                }
+                return result;
+            }
+
+            Console.WriteLine("\n");
+            Console.WriteLine(FullSequenceOfLetters("ds"));
+            Console.WriteLine(FullSequenceOfLetters("or"));
+
+            //Sum and average
+            //Given two integers n and m(n <= m), make a method that returns sum of all integers and average from range[n, m].
+            static void SumAndAverage(decimal n, decimal m)
+            {
+                decimal sum = 0;
+                decimal count = 0;
+                for (decimal i = n; i <= m; i++)
+                {
+                    sum += i;
+                    count++;
+                }
+                Console.WriteLine($"Sum: {sum} Average: {sum / count}");
+            }
+
+            Console.WriteLine("\n");
+            SumAndAverage(11, 66);
+            SumAndAverage(-10, 0);
+
+            //Draw triangle
+            //Write a method that draws triangle shape like below.
+            static void DrawTriangle()
+            {
+                for (int i = 1; i <= 19; i++)
+                {
+                    for (int j = 1; j <= i; j++)
+                    {
+                        Console.Write("*");
+                    }
+                    Console.WriteLine("");
+                }
+            }
+
+            Console.WriteLine("\n");
+            DrawTriangle();
         }
     }
 }
