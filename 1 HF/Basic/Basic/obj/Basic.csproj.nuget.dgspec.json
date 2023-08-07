@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HFGF\\source\\repos\\Basic\\Basic\\Basic.csproj": {}
+    "C:\\Users\\HFGF\\Source\\Repos\\rolfVejsig\\1-HF\\1 HF\\Basic\\Basic\\Basic.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HFGF\\source\\repos\\Basic\\Basic\\Basic.csproj": {
+    "C:\\Users\\HFGF\\Source\\Repos\\rolfVejsig\\1-HF\\1 HF\\Basic\\Basic\\Basic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HFGF\\source\\repos\\Basic\\Basic\\Basic.csproj",
+        "projectUniqueName": "C:\\Users\\HFGF\\Source\\Repos\\rolfVejsig\\1-HF\\1 HF\\Basic\\Basic\\Basic.csproj",
         "projectName": "Basic",
-        "projectPath": "C:\\Users\\HFGF\\source\\repos\\Basic\\Basic\\Basic.csproj",
+        "projectPath": "C:\\Users\\HFGF\\Source\\Repos\\rolfVejsig\\1-HF\\1 HF\\Basic\\Basic\\Basic.csproj",
         "packagesPath": "C:\\Users\\HFGF\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HFGF\\source\\repos\\Basic\\Basic\\obj\\",
+        "outputPath": "C:\\Users\\HFGF\\Source\\Repos\\rolfVejsig\\1-HF\\1 HF\\Basic\\Basic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HFGF\\AppData\\Roaming\\NuGet\\NuGet.Config",
