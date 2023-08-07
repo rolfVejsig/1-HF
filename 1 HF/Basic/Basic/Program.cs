@@ -3,6 +3,7 @@
     internal class Program
     {
 
+        //hej :)
         static void Main(string[] args)
         {
             //Add two numbers
