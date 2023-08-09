@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HFGF\\source\\repos\\Conditional Statements\\Conditional Statements\\Conditional Statements.csproj",
+      "projectUniqueName": "C:\\Users\\HFGF\\source\\repos\\rolfVejsig\\1-HF\\1 HF\\Conditional Statements\\Conditional Statements\\Conditional Statements.csproj",
       "projectName": "Conditional Statements",
-      "projectPath": "C:\\Users\\HFGF\\source\\repos\\Conditional Statements\\Conditional Statements\\Conditional Statements.csproj",
+      "projectPath": "C:\\Users\\HFGF\\source\\repos\\rolfVejsig\\1-HF\\1 HF\\Conditional Statements\\Conditional Statements\\Conditional Statements.csproj",
       "packagesPath": "C:\\Users\\HFGF\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HFGF\\source\\repos\\Conditional Statements\\Conditional Statements\\obj\\",
+      "outputPath": "C:\\Users\\HFGF\\source\\repos\\rolfVejsig\\1-HF\\1 HF\\Conditional Statements\\Conditional Statements\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HFGF\\AppData\\Roaming\\NuGet\\NuGet.Config",

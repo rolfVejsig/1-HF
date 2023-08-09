@@ -7,5 +7,5 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = Loops
-build_property.ProjectDir = C:\Users\HFGF\Source\Repos\rolfVejsig\1-HF\1 HF\ConsoleApp1\ConsoleApp1\
+build_property.RootNamespace = Strings
+build_property.ProjectDir = C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Strings\Strings\
