@@ -1,0 +1,15 @@
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Odd Man Out\Odd Man Out\bin\Debug\net6.0\Odd Man Out.exe
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Odd Man Out\Odd Man Out\bin\Debug\net6.0\Odd Man Out.deps.json
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Odd Man Out\Odd Man Out\bin\Debug\net6.0\Odd Man Out.runtimeconfig.json
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Odd Man Out\Odd Man Out\bin\Debug\net6.0\Odd Man Out.dll
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Odd Man Out\Odd Man Out\bin\Debug\net6.0\Odd Man Out.pdb
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Odd Man Out\Odd Man Out\obj\Debug\net6.0\Odd Man Out.csproj.AssemblyReference.cache
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Odd Man Out\Odd Man Out\obj\Debug\net6.0\Odd Man Out.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Odd Man Out\Odd Man Out\obj\Debug\net6.0\Odd Man Out.AssemblyInfoInputs.cache
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Odd Man Out\Odd Man Out\obj\Debug\net6.0\Odd Man Out.AssemblyInfo.cs
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Odd Man Out\Odd Man Out\obj\Debug\net6.0\Odd Man Out.csproj.CoreCompileInputs.cache
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Odd Man Out\Odd Man Out\obj\Debug\net6.0\Odd Man Out.dll
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Odd Man Out\Odd Man Out\obj\Debug\net6.0\refint\Odd Man Out.dll
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Odd Man Out\Odd Man Out\obj\Debug\net6.0\Odd Man Out.pdb
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Odd Man Out\Odd Man Out\obj\Debug\net6.0\Odd Man Out.genruntimeconfig.cache
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Odd Man Out\Odd Man Out\obj\Debug\net6.0\ref\Odd Man Out.dll

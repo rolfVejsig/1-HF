@@ -1,0 +1,15 @@
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Terningespil\Terningespil\bin\Debug\net6.0\Terningespil.exe
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Terningespil\Terningespil\bin\Debug\net6.0\Terningespil.deps.json
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Terningespil\Terningespil\bin\Debug\net6.0\Terningespil.runtimeconfig.json
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Terningespil\Terningespil\bin\Debug\net6.0\Terningespil.dll
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Terningespil\Terningespil\bin\Debug\net6.0\Terningespil.pdb
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Terningespil\Terningespil\obj\Debug\net6.0\Terningespil.csproj.AssemblyReference.cache
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Terningespil\Terningespil\obj\Debug\net6.0\Terningespil.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Terningespil\Terningespil\obj\Debug\net6.0\Terningespil.AssemblyInfoInputs.cache
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Terningespil\Terningespil\obj\Debug\net6.0\Terningespil.AssemblyInfo.cs
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Terningespil\Terningespil\obj\Debug\net6.0\Terningespil.csproj.CoreCompileInputs.cache
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Terningespil\Terningespil\obj\Debug\net6.0\Terningespil.dll
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Terningespil\Terningespil\obj\Debug\net6.0\refint\Terningespil.dll
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Terningespil\Terningespil\obj\Debug\net6.0\Terningespil.pdb
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Terningespil\Terningespil\obj\Debug\net6.0\Terningespil.genruntimeconfig.cache
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Terningespil\Terningespil\obj\Debug\net6.0\ref\Terningespil.dll
