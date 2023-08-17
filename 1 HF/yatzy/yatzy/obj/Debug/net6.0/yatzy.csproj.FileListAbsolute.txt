@@ -1,0 +1,15 @@
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\yatzy\yatzy\bin\Debug\net6.0\yatzy.exe
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\yatzy\yatzy\bin\Debug\net6.0\yatzy.deps.json
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\yatzy\yatzy\bin\Debug\net6.0\yatzy.runtimeconfig.json
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\yatzy\yatzy\bin\Debug\net6.0\yatzy.dll
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\yatzy\yatzy\bin\Debug\net6.0\yatzy.pdb
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\yatzy\yatzy\obj\Debug\net6.0\yatzy.csproj.AssemblyReference.cache
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\yatzy\yatzy\obj\Debug\net6.0\yatzy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\yatzy\yatzy\obj\Debug\net6.0\yatzy.AssemblyInfoInputs.cache
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\yatzy\yatzy\obj\Debug\net6.0\yatzy.AssemblyInfo.cs
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\yatzy\yatzy\obj\Debug\net6.0\yatzy.csproj.CoreCompileInputs.cache
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\yatzy\yatzy\obj\Debug\net6.0\yatzy.dll
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\yatzy\yatzy\obj\Debug\net6.0\refint\yatzy.dll
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\yatzy\yatzy\obj\Debug\net6.0\yatzy.pdb
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\yatzy\yatzy\obj\Debug\net6.0\yatzy.genruntimeconfig.cache
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\yatzy\yatzy\obj\Debug\net6.0\ref\yatzy.dll
