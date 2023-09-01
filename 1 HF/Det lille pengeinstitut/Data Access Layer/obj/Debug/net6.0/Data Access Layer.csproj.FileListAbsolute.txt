@@ -1,0 +1,15 @@
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Data Access Layer\obj\Debug\net6.0\Data Access Layer.csproj.AssemblyReference.cache
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Data Access Layer\obj\Debug\net6.0\Data Access Layer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Data Access Layer\obj\Debug\net6.0\Data Access Layer.AssemblyInfoInputs.cache
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Data Access Layer\obj\Debug\net6.0\Data Access Layer.AssemblyInfo.cs
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Data Access Layer\obj\Debug\net6.0\Data Access Layer.csproj.CoreCompileInputs.cache
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Data Access Layer\bin\Debug\net6.0\Data Access Layer.deps.json
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Data Access Layer\bin\Debug\net6.0\Data Access Layer.dll
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Data Access Layer\bin\Debug\net6.0\Data Access Layer.pdb
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Data Access Layer\bin\Debug\net6.0\Data Model.dll
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Data Access Layer\bin\Debug\net6.0\Data Model.pdb
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Data Access Layer\obj\Debug\net6.0\Data Access Layer.csproj.CopyComplete
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Data Access Layer\obj\Debug\net6.0\Data Access Layer.dll
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Data Access Layer\obj\Debug\net6.0\refint\Data Access Layer.dll
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Data Access Layer\obj\Debug\net6.0\Data Access Layer.pdb
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Data Access Layer\obj\Debug\net6.0\ref\Data Access Layer.dll

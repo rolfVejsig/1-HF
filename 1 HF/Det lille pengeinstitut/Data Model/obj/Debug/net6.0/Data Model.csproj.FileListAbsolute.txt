@@ -1,0 +1,12 @@
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Data Model\bin\Debug\net6.0\Data Model.deps.json
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Data Model\bin\Debug\net6.0\Data Model.dll
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Data Model\bin\Debug\net6.0\Data Model.pdb
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Data Model\obj\Debug\net6.0\Data Model.csproj.AssemblyReference.cache
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Data Model\obj\Debug\net6.0\Data Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Data Model\obj\Debug\net6.0\Data Model.AssemblyInfoInputs.cache
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Data Model\obj\Debug\net6.0\Data Model.AssemblyInfo.cs
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Data Model\obj\Debug\net6.0\Data Model.csproj.CoreCompileInputs.cache
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Data Model\obj\Debug\net6.0\Data Model.dll
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Data Model\obj\Debug\net6.0\refint\Data Model.dll
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Data Model\obj\Debug\net6.0\Data Model.pdb
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Data Model\obj\Debug\net6.0\ref\Data Model.dll

@@ -1,0 +1,17 @@
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Business Logic Layer\obj\Debug\net6.0\Business Logic Layer.csproj.AssemblyReference.cache
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Business Logic Layer\obj\Debug\net6.0\Business Logic Layer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Business Logic Layer\obj\Debug\net6.0\Business Logic Layer.AssemblyInfoInputs.cache
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Business Logic Layer\obj\Debug\net6.0\Business Logic Layer.AssemblyInfo.cs
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Business Logic Layer\obj\Debug\net6.0\Business Logic Layer.csproj.CoreCompileInputs.cache
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Business Logic Layer\bin\Debug\net6.0\Business Logic Layer.deps.json
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Business Logic Layer\bin\Debug\net6.0\Business Logic Layer.dll
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Business Logic Layer\bin\Debug\net6.0\Business Logic Layer.pdb
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Business Logic Layer\bin\Debug\net6.0\Data Access Layer.dll
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Business Logic Layer\bin\Debug\net6.0\Data Model.dll
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Business Logic Layer\bin\Debug\net6.0\Data Access Layer.pdb
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Business Logic Layer\bin\Debug\net6.0\Data Model.pdb
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Business Logic Layer\obj\Debug\net6.0\Business Logic Layer.csproj.CopyComplete
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Business Logic Layer\obj\Debug\net6.0\Business Logic Layer.dll
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Business Logic Layer\obj\Debug\net6.0\refint\Business Logic Layer.dll
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Business Logic Layer\obj\Debug\net6.0\Business Logic Layer.pdb
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Business Logic Layer\obj\Debug\net6.0\ref\Business Logic Layer.dll

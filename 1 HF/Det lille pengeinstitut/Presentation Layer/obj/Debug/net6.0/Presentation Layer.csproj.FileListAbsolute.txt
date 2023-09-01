@@ -1,0 +1,23 @@
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Presentation Layer\obj\Debug\net6.0\Presentation Layer.csproj.AssemblyReference.cache
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Presentation Layer\obj\Debug\net6.0\Presentation Layer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Presentation Layer\obj\Debug\net6.0\Presentation Layer.AssemblyInfoInputs.cache
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Presentation Layer\obj\Debug\net6.0\Presentation Layer.AssemblyInfo.cs
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Presentation Layer\obj\Debug\net6.0\Presentation Layer.csproj.CoreCompileInputs.cache
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Presentation Layer\bin\Debug\net6.0\Presentation Layer.exe
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Presentation Layer\bin\Debug\net6.0\Presentation Layer.deps.json
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Presentation Layer\bin\Debug\net6.0\Presentation Layer.runtimeconfig.json
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Presentation Layer\bin\Debug\net6.0\Presentation Layer.dll
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Presentation Layer\bin\Debug\net6.0\Presentation Layer.pdb
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Presentation Layer\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Presentation Layer\bin\Debug\net6.0\Business Logic Layer.dll
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Presentation Layer\bin\Debug\net6.0\Data Access Layer.dll
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Presentation Layer\bin\Debug\net6.0\Data Model.dll
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Presentation Layer\bin\Debug\net6.0\Business Logic Layer.pdb
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Presentation Layer\bin\Debug\net6.0\Data Access Layer.pdb
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Presentation Layer\bin\Debug\net6.0\Data Model.pdb
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Presentation Layer\obj\Debug\net6.0\Presentation Layer.csproj.CopyComplete
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Presentation Layer\obj\Debug\net6.0\Presentation Layer.dll
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Presentation Layer\obj\Debug\net6.0\refint\Presentation Layer.dll
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Presentation Layer\obj\Debug\net6.0\Presentation Layer.pdb
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Presentation Layer\obj\Debug\net6.0\Presentation Layer.genruntimeconfig.cache
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Det lille pengeinstitut\Presentation Layer\obj\Debug\net6.0\ref\Presentation Layer.dll
