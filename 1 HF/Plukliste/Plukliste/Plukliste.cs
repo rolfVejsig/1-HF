@@ -152,3 +152,20 @@ namespace Plukliste
         }
     }
 }
+/*
+ Æmdringer i forhold til den originale kode:
+
+ Struktur og Opdeling: Koden er opdelt i mindre hjælpemetoder (CreateImportDirectoryIfNotExists, GetFileList, DisplayFileContent, osv.) for at gøre Main() metoden mere læsbar og forståelig.
+
+Variabel Navngivning: Variabelnavne er ændret til at være mere beskrivende. For eksempel er readKey blevet til userKey, og files er blevet til fileList.
+
+Brug af using-Statement: For at sikre, at FileStream frigøres korrekt, er der anvendt et using-statement.
+
+Console Farvehåndtering: Håndteringen af konsolens forgrundsfarve er trukket ud i en separat metode (PrintColoredText), der tager farven som en parameter. Dette gør det lettere at ændre farverne senere.
+
+Brug af Environment.Exit(1): Tilføjet en exit-kode, når "export" mappen ikke findes, hvilket gør det klart, at programmet ikke har fuldført succesfuldt.
+
+File Handling: Filbehandling er nu mere robust, inklusiv korrekt sletning af filer fra listen og flytning af filer til "import" mappen.
+
+Brug af char.ToUpper(): Brug af char.ToUpper() metode for at gøre brugerinput til stort bogstav, i stedet for den oprindelige 'hack'.
+*/
