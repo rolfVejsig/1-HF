@@ -38,7 +38,7 @@ namespace Plukliste
         static void CreateImportDirectoryIfNotExists()
         {
             Directory.CreateDirectory("import");
-            if (!Directory.Exists("export"))
+            if (!Directory.Exists("C:\\Users\\HFGF\\Downloads\\test-filer\\export"))
             {
                 Console.WriteLine("Directory \"export\" not found");
                 Console.ReadLine();
@@ -47,7 +47,7 @@ namespace Plukliste
         }
 
         // Fetch the list of files from the "export" directory
-        static List<string> GetFileList() => Directory.EnumerateFiles("export").ToList();
+        static List<string> GetFileList() => Directory.EnumerateFiles("C:\\Users\\HFGF\\Downloads\\test-filer\\export").ToList();
 
         // Convert input to uppercase
         static char ReadUserInput() => char.ToUpper(Console.ReadKey().KeyChar);
