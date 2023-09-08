@@ -16,26 +16,25 @@ namespace Plukliste
             int fileIndex = -1;
             ConsoleColor defaultConsoleColor = Console.ForegroundColor;
 
-            // Setup initial directories and files
+            // Setup directories and files
             CreateImportDirectoryIfNotExists();
             fileList = GetFileList();
 
             // Main loop
             while (userKey != 'Q')
             {
-                // Display file content to the user
+                // Show file content to the user
                 DisplayFileContent(fileList, ref fileIndex);
-                // Display available options to the user
+                // Show available options to the user
                 DisplayOptions(fileIndex, fileList.Count, defaultConsoleColor);
 
-                // Read user input
+                // Read user input and perform actions based on their choice
                 userKey = ReadUserInput();
-                // Perform action based on user input
                 HandleUserInput(ref fileIndex, fileList, userKey, defaultConsoleColor);
             }
         }
 
-        // Create the "import" directory if it does not exist
+        // Create the import directory if it does not exist
         static void CreateImportDirectoryIfNotExists()
         {
             Directory.CreateDirectory("import");
@@ -50,10 +49,10 @@ namespace Plukliste
         // Fetch the list of files from the "export" directory
         static List<string> GetFileList() => Directory.EnumerateFiles("export").ToList();
 
-        // Read and return user input, converted to uppercase
+        // Convert input to uppercase
         static char ReadUserInput() => char.ToUpper(Console.ReadKey().KeyChar);
 
-        // Display the contents of the current file
+        // Show what is in the current file
         static void DisplayFileContent(List<string> fileList, ref int fileIndex)
         {
             // No files found case
@@ -68,7 +67,7 @@ namespace Plukliste
                 Console.WriteLine($"Plukliste {fileIndex + 1} af {fileList.Count}");
                 Console.WriteLine($"\nfile: {fileList[fileIndex]}");
 
-                // Deserialize and display the contents of the XML file
+                // Show the contents of the XML file
                 using (FileStream fileStream = File.OpenRead(fileList[fileIndex]))
                 {
                     XmlSerializer serializer = new XmlSerializer(typeof(Pluklist));
@@ -85,7 +84,7 @@ namespace Plukliste
         // Print the pluklist details
         static void PrintPlukList(Pluklist plukList)
         {
-            // Display basic information and items in the list
+            // Show  information and items in the list
             Console.WriteLine("\n{0, -13}{1}", "Name:", plukList.Name);
             Console.WriteLine("{0, -13}{1}", "Forsendelse:", plukList.Forsendelse);
             Console.WriteLine("\n{0,-7}{1,-9}{2,-20}{3}", "Antal", "Type", "Produktnr.", "Navn");
@@ -95,10 +94,10 @@ namespace Plukliste
             }
         }
 
-        // Display the available options to the user
+        // Show the available options to the user
         static void DisplayOptions(int currentIndex, int fileCount, ConsoleColor defaultColor)
         {
-            // Display menu options based on the current state
+            // Show menu options 
             Console.WriteLine("\n\nOptions:");
             PrintColoredText("Q: Quit", ConsoleColor.Green, defaultColor);
             if (currentIndex >= 0) PrintColoredText("A: Afslut plukseddel", ConsoleColor.Green, defaultColor);
@@ -107,7 +106,7 @@ namespace Plukliste
             PrintColoredText("G: Genindlæs pluksedler", ConsoleColor.Green, defaultColor);
         }
 
-        // Print text in a specified color
+        // choose color and print text
         static void PrintColoredText(string text, ConsoleColor color, ConsoleColor defaultColor)
         {
             Console.ForegroundColor = color;
@@ -142,10 +141,10 @@ namespace Plukliste
             Console.ForegroundColor = defaultColor;
         }
 
-        // Move the current file to the "import" directory
+        // Move file to import directory
         static void MoveFileToImportDirectory(string filePath)
         {
-            // Prepare destination path and move the file
+            // Move the file
             string fileName = Path.GetFileName(filePath);
             string destinationPath = Path.Combine("import", fileName);
             File.Move(filePath, destinationPath);
