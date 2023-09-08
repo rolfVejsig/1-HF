@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Plukliste/1.0.0": {
+        "dependencies": {
+          "Plukliste_class": "1.0.0"
+        },
+        "runtime": {
+          "Plukliste.dll": {}
+        }
+      },
+      "Plukliste_class/1.0.0": {
+        "runtime": {
+          "Plukliste_class.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Plukliste/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Plukliste_class/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
