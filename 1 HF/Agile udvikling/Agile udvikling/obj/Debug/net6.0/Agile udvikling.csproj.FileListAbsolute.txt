@@ -1,0 +1,15 @@
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Agile udvikling\Agile udvikling\bin\Debug\net6.0\Agile udvikling.exe
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Agile udvikling\Agile udvikling\bin\Debug\net6.0\Agile udvikling.deps.json
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Agile udvikling\Agile udvikling\bin\Debug\net6.0\Agile udvikling.runtimeconfig.json
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Agile udvikling\Agile udvikling\bin\Debug\net6.0\Agile udvikling.dll
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Agile udvikling\Agile udvikling\bin\Debug\net6.0\Agile udvikling.pdb
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Agile udvikling\Agile udvikling\obj\Debug\net6.0\Agile udvikling.csproj.AssemblyReference.cache
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Agile udvikling\Agile udvikling\obj\Debug\net6.0\Agile udvikling.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Agile udvikling\Agile udvikling\obj\Debug\net6.0\Agile udvikling.AssemblyInfoInputs.cache
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Agile udvikling\Agile udvikling\obj\Debug\net6.0\Agile udvikling.AssemblyInfo.cs
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Agile udvikling\Agile udvikling\obj\Debug\net6.0\Agile udvikling.csproj.CoreCompileInputs.cache
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Agile udvikling\Agile udvikling\obj\Debug\net6.0\Agile udvikling.dll
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Agile udvikling\Agile udvikling\obj\Debug\net6.0\refint\Agile udvikling.dll
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Agile udvikling\Agile udvikling\obj\Debug\net6.0\Agile udvikling.pdb
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Agile udvikling\Agile udvikling\obj\Debug\net6.0\Agile udvikling.genruntimeconfig.cache
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Agile udvikling\Agile udvikling\obj\Debug\net6.0\ref\Agile udvikling.dll
