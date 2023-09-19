@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Agile udvikling", "Agile ud
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "agile_udvikling_test", "agile_udvikling_test\agile_udvikling_test.csproj", "{32D43360-9E2C-4FCC-9F59-6C2D58DB2AA6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedarbejderIDLibrary", "MedarbejderIDLibrary\MedarbejderIDLibrary.csproj", "{F6447910-A941-411F-94EA-07CB65D83D71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp", "WinFormsApp\WinFormsApp.csproj", "{43DE4C30-8F01-4B38-A662-25CD5A274A7C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{32D43360-9E2C-4FCC-9F59-6C2D58DB2AA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32D43360-9E2C-4FCC-9F59-6C2D58DB2AA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32D43360-9E2C-4FCC-9F59-6C2D58DB2AA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6447910-A941-411F-94EA-07CB65D83D71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6447910-A941-411F-94EA-07CB65D83D71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6447910-A941-411F-94EA-07CB65D83D71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6447910-A941-411F-94EA-07CB65D83D71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43DE4C30-8F01-4B38-A662-25CD5A274A7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43DE4C30-8F01-4B38-A662-25CD5A274A7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43DE4C30-8F01-4B38-A662-25CD5A274A7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43DE4C30-8F01-4B38-A662-25CD5A274A7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

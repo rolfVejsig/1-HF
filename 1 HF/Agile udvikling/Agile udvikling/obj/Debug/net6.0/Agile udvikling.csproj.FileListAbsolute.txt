@@ -13,3 +13,6 @@ C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Agile udvikling\Agile udvikling\
 C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Agile udvikling\Agile udvikling\obj\Debug\net6.0\Agile udvikling.pdb
 C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Agile udvikling\Agile udvikling\obj\Debug\net6.0\Agile udvikling.genruntimeconfig.cache
 C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Agile udvikling\Agile udvikling\obj\Debug\net6.0\ref\Agile udvikling.dll
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Agile udvikling\Agile udvikling\bin\Debug\net6.0\MedarbejderIDLibrary.dll
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Agile udvikling\Agile udvikling\bin\Debug\net6.0\MedarbejderIDLibrary.pdb
+C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Agile udvikling\Agile udvikling\obj\Debug\net6.0\Agile udvikling.csproj.CopyComplete

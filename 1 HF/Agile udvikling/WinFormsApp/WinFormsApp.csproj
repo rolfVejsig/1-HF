@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Agile udvikling\Agile udvikling.csproj" />
+    <ProjectReference Include="..\agile_udvikling_test\agile_udvikling_test.csproj" />
+    <ProjectReference Include="..\MedarbejderIDLibrary\MedarbejderIDLibrary.csproj" />
+  </ItemGroup>
+
+</Project>

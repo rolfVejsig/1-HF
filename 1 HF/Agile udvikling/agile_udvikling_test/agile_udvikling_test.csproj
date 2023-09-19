@@ -24,6 +24,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Agile udvikling\Agile udvikling.csproj" />
+    <ProjectReference Include="..\MedarbejderIDLibrary\MedarbejderIDLibrary.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "MedarbejderIDLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/MedarbejderIDLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MedarbejderIDLibrary.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "MedarbejderIDLibrary/1.0.0": {
+      "type": "project",
+      "path": "../MedarbejderIDLibrary/MedarbejderIDLibrary.csproj",
+      "msbuildProject": "../MedarbejderIDLibrary/MedarbejderIDLibrary.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "MedarbejderIDLibrary >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\HFGF\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\HFGF\\source\\repos\\rolfVejsig\\1-HF\\1 HF\\Agile udvikling\\MedarbejderIDLibrary\\MedarbejderIDLibrary.csproj": {
+              "projectPath": "C:\\Users\\HFGF\\source\\repos\\rolfVejsig\\1-HF\\1 HF\\Agile udvikling\\MedarbejderIDLibrary\\MedarbejderIDLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

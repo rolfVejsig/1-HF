@@ -1716,11 +1716,24 @@
       "Agile udvikling/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MedarbejderIDLibrary": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Agile udvikling.dll": {}
         },
         "runtime": {
           "bin/placeholder/Agile udvikling.dll": {}
+        }
+      },
+      "MedarbejderIDLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/MedarbejderIDLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MedarbejderIDLibrary.dll": {}
         }
       }
     }
@@ -5521,11 +5534,17 @@
       "type": "project",
       "path": "../Agile udvikling/Agile udvikling.csproj",
       "msbuildProject": "../Agile udvikling/Agile udvikling.csproj"
+    },
+    "MedarbejderIDLibrary/1.0.0": {
+      "type": "project",
+      "path": "../MedarbejderIDLibrary/MedarbejderIDLibrary.csproj",
+      "msbuildProject": "../MedarbejderIDLibrary/MedarbejderIDLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Agile udvikling >= 1.0.0",
+      "MedarbejderIDLibrary >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.5.0",
       "coverlet.collector >= 3.2.0",
       "xunit >= 2.4.2",
@@ -5561,6 +5580,9 @@
           "projectReferences": {
             "C:\\Users\\HFGF\\source\\repos\\rolfVejsig\\1-HF\\1 HF\\Agile udvikling\\Agile udvikling\\Agile udvikling.csproj": {
               "projectPath": "C:\\Users\\HFGF\\source\\repos\\rolfVejsig\\1-HF\\1 HF\\Agile udvikling\\Agile udvikling\\Agile udvikling.csproj"
+            },
+            "C:\\Users\\HFGF\\source\\repos\\rolfVejsig\\1-HF\\1 HF\\Agile udvikling\\MedarbejderIDLibrary\\MedarbejderIDLibrary.csproj": {
+              "projectPath": "C:\\Users\\HFGF\\source\\repos\\rolfVejsig\\1-HF\\1 HF\\Agile udvikling\\MedarbejderIDLibrary\\MedarbejderIDLibrary.csproj"
             }
           }
         }

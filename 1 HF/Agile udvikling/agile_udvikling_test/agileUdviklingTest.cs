@@ -1,19 +1,20 @@
 using System;
 using Xunit;
+using MedarbejderIDLibrary;
 
 namespace Agile_udvikling.Tests
 {
-    public class ProgramTests
+    public class MedarbejderIDGeneratorTests
     {
         [Fact]
         public void perfektData()
         {
             // Arrange
-            string fornavn = "mads";
-            string efternavn = "andersen";
+            string fornavn = "Mads";
+            string efternavn = "Andersen";
 
             // Act
-            string medarbejderID = Program.GenerateMedarbejderID(fornavn, efternavn);
+            string medarbejderID = MedarbejderIDGenerator.GenerateMedarbejderID(fornavn, efternavn);
 
             // Assert
             Assert.NotNull(medarbejderID);
@@ -26,11 +27,11 @@ namespace Agile_udvikling.Tests
         public void uperfektData()
         {
             // Arrange
-            string fornavn = "bo";
-            string efternavn = "P";
+            string fornavn = "Bo";
+            string efternavn = "Å";
 
             // Act
-            string medarbejderID = Program.GenerateMedarbejderID(fornavn, efternavn);
+            string medarbejderID = MedarbejderIDGenerator.GenerateMedarbejderID(fornavn, efternavn);
 
             // Assert
             Assert.NotNull(medarbejderID);
