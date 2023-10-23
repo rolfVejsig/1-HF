@@ -1,7 +1,6 @@
 C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Plukliste\ClassLibrary1\bin\Debug\net6.0\Plukliste_class.deps.json
 C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Plukliste\ClassLibrary1\bin\Debug\net6.0\Plukliste_class.dll
 C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Plukliste\ClassLibrary1\bin\Debug\net6.0\Plukliste_class.pdb
-C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Plukliste\ClassLibrary1\obj\Debug\net6.0\Plukliste_class.csproj.AssemblyReference.cache
 C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Plukliste\ClassLibrary1\obj\Debug\net6.0\Plukliste_class.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Plukliste\ClassLibrary1\obj\Debug\net6.0\Plukliste_class.AssemblyInfoInputs.cache
 C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Plukliste\ClassLibrary1\obj\Debug\net6.0\Plukliste_class.AssemblyInfo.cs

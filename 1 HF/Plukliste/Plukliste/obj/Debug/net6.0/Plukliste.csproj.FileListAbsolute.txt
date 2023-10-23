@@ -3,8 +3,6 @@ C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste\bin\Debug\ne
 C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste\bin\Debug\net6.0\Plukliste.runtimeconfig.json
 C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste\bin\Debug\net6.0\Plukliste.dll
 C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste\bin\Debug\net6.0\Plukliste.pdb
-C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste\bin\Debug\net6.0\Plukliste_class.dll
-C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste\bin\Debug\net6.0\Plukliste_class.pdb
 C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste\obj\Debug\net6.0\Plukliste.csproj.AssemblyReference.cache
 C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste\obj\Debug\net6.0\Plukliste.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste\obj\Debug\net6.0\Plukliste.AssemblyInfoInputs.cache
@@ -16,3 +14,4 @@ C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste\obj\Debug\ne
 C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste\obj\Debug\net6.0\Plukliste.pdb
 C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste\obj\Debug\net6.0\Plukliste.genruntimeconfig.cache
 C:\Users\HFGF\source\repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste\obj\Debug\net6.0\ref\Plukliste.dll
+C:\Users\HFGF\Source\Repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste\bin\Debug\net6.0\CsvHelper.dll

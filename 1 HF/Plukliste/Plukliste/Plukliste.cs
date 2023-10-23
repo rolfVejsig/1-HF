@@ -1,127 +1,135 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
-using System.Linq;
-using System.Xml.Serialization;
+using System.Text;
+using CsvHelper;
+using CsvHelper.Configuration;
+using CsvRecord;
+
 
 namespace Plukliste
 {
-    public class PluklisteProgram
+    class PluklisteProgram
     {
+        const string OpgadeVejledningTemplatePath = @"C:\Users\HFGF\Downloads\templatesPRINT-OPGRADE.html";
+        const string OpsigelseVejledningTemplatePath = @"C:\Users\HFGF\Downloads\templates\PRINT-OPSIGELSE.html";
+        const string WelcomeVejledningTemplatePath = @"C:\Users\HFGF\Downloads\templates\PRINT-WELCOME.html";
+        const string OutputDirectory = @"C:\Users\HFGF\Downloads\Vejledninger";
+
         static void Main()
         {
-            const string AddTemplatePath = "C:\\Users\\HFGF\\Downloads\\templates\\PRINT-WELCOME.html";
-            const string RemoveTemplatePath = "C:\\Users\\HFGF\\Downloads\\templates\\PRINT-OPSIGELSE.html";
-            const string ReplaceModemTemplatePath = "C:\\Users\\HFGF\\Downloads\\templates\\PRINT-OPGRADE.html";
+            const string importDirectory = "import";
+            const string exportDirectory = @"C:\Users\HFGF\Downloads\test filer 2";
 
-            char userKey = ' ';
-            List<string> fileList;
-            int fileIndex = -1;
-            ConsoleColor defaultConsoleColor = Console.ForegroundColor;
+            char userInput = ' ';
+            List<string> files = GetExportedFiles(exportDirectory);
+            int currentIndex = -1;
 
-            CreateImportDirectoryIfNotExists();
-            fileList = GetFileList();
-
-            while (userKey != 'Q')
-            {
-                DisplayFileContent(fileList, ref fileIndex);
-                DisplayOptions(fileIndex, fileList.Count, defaultConsoleColor);
-
-                userKey = ReadUserInput();
-                HandleUserInput(ref fileIndex, fileList, userKey, defaultConsoleColor, AddTemplatePath, RemoveTemplatePath, ReplaceModemTemplatePath);
-            }
-        }
-
-        static void CreateImportDirectoryIfNotExists()
-        {
-            Directory.CreateDirectory("import");
-            if (!Directory.Exists("C:\\Users\\HFGF\\Downloads\\test-filer\\export"))
+            if (!Directory.Exists(exportDirectory))
             {
                 Console.WriteLine("Directory \"export\" not found");
                 Console.ReadLine();
-                Environment.Exit(1);
-            }
-        }
-
-        static List<string> GetFileList() => Directory.EnumerateFiles("C:\\Users\\HFGF\\Downloads\\test-filer\\export").ToList();
-
-        static char ReadUserInput() => char.ToUpper(Console.ReadKey().KeyChar);
-
-        static void DisplayFileContent(List<string> fileList, ref int fileIndex)
-        {
-            if (fileList.Count == 0)
-            {
-                Console.WriteLine("No files found.");
                 return;
             }
 
-            if (fileIndex == -1) fileIndex = 0;
+            Directory.CreateDirectory(importDirectory);
 
-            Console.WriteLine($"Plukliste {fileIndex + 1} af {fileList.Count}");
-            Console.WriteLine($"\nfile: {fileList[fileIndex]}");
-
-            using (FileStream fileStream = File.OpenRead(fileList[fileIndex]))
+            while (userInput != 'Q')
             {
-                XmlSerializer serializer = new XmlSerializer(typeof(Pluklist));
-                Pluklist? plukList = (Pluklist?)serializer.Deserialize(fileStream);
-
-                if (plukList != null && plukList.Lines != null)
+                if (files.Count == 0)
                 {
-                    PrintPlukList(plukList);
+                    Console.WriteLine("No files found.");
+                }
+                else
+                {
+                    if (currentIndex == -1) currentIndex = 0;
+                    PrintPlukliste(files[currentIndex]);
+                }
+
+                PrintOptions(currentIndex, files.Count);
+                userInput = Console.ReadKey().KeyChar;
+                HandleUserInput(ref files, ref currentIndex, userInput, importDirectory);
+                Console.Clear();
+            }
+        }
+
+        static List<string> GetExportedFiles(string directoryPath)
+        {
+            return Directory.EnumerateFiles(directoryPath).ToList();
+        }
+
+        static void PrintPlukliste(string filePath)
+        {
+            if (Path.GetExtension(filePath).Equals(".xml", StringComparison.OrdinalIgnoreCase))
+            {
+                // Handle XML file
+                using (FileStream file = File.OpenRead(filePath))
+                {
+                    System.Xml.Serialization.XmlSerializer xmlSerializer =
+                        new System.Xml.Serialization.XmlSerializer(typeof(Pluklist));
+                    var plukliste = xmlSerializer.Deserialize(file) as Pluklist;
+
+                    if (plukliste != null && plukliste.Lines != null)
+                    {
+                        Console.WriteLine($"\nfile: {filePath}");
+                        Console.WriteLine($"\nName: {plukliste.Name}");
+                        Console.WriteLine($"Forsendelse: {plukliste.Forsendelse}");
+                        Console.WriteLine("\n{0,-7}{1,-9}{2,-20}{3}", "Antal", "Type", "Produktnr.", "Navn");
+                        foreach (var item in plukliste.Lines)
+                        {
+                            Console.WriteLine("{0,-7}{1,-9}{2,-20}{3}", item.Amount, item.Type, item.ProductID, item.Title);
+                        }
+                    }
                 }
             }
-        }
-
-        static void PrintPlukList(Pluklist plukList)
-        {
-            Console.WriteLine("\n{0, -13}{1}", "Name:", plukList.Name);
-            Console.WriteLine("{0, -13}{1}", "Forsendelse:", plukList.Forsendelse);
-
-            Console.WriteLine("\n{0,-7}{1,-9}{2,-20}{3}", "Antal", "Type", "Produktnr.", "Navn");
-            foreach (var item in plukList.Lines)
+            else if (Path.GetExtension(filePath).Equals(".csv", StringComparison.OrdinalIgnoreCase))
             {
-                Console.WriteLine("{0,-7}{1,-9}{2,-20}{3}", item.Amount, item.Type, item.ProductID, item.Title);
+                // Handle CSV file
+                var records = ReadCsvFile(filePath);
+                Console.WriteLine($"\nfile: {filePath}");
+                Console.WriteLine("\n{0,-7}{1,-9}{2,-20}{3}", "Antal", "Type", "Produktnr.", "Navn");
+                foreach (var record in records)
+                {
+                    Console.WriteLine("{0,-7}{1,-9}{2,-20}{3}", record.Amount, record.Type, record.ProductId, record.Description);
+                }
+            }
+            else
+            {
+                Console.WriteLine($"Unsupported file format: {filePath}");
             }
         }
 
-        static void DisplayOptions(int currentIndex, int fileCount, ConsoleColor defaultColor)
-        {
-            Console.WriteLine("\n\nOptions:");
-            PrintColoredText("Q: Quit", ConsoleColor.Green, defaultColor);
 
+        static void PrintOptions(int currentIndex, int totalFiles)
+        {
+            Console.WriteLine($"\nPlukliste {currentIndex + 1} af {totalFiles}");
+            Console.WriteLine("\nOptions:");
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("Q)uit");
             if (currentIndex >= 0)
             {
-                PrintColoredText("A: Afslut plukseddel", ConsoleColor.Green, defaultColor);
-                PrintColoredText("M: Modemudskiftning", ConsoleColor.Green, defaultColor);
+                Console.WriteLine("(A) Afslut plukseddel");
             }
-
             if (currentIndex > 0)
             {
-                PrintColoredText("F: Forrige plukseddel", ConsoleColor.Green, defaultColor);
+                Console.WriteLine("(F) Forrige plukseddel");
             }
-
-            if (currentIndex < fileCount - 1)
+            if (currentIndex < totalFiles - 1)
             {
-                PrintColoredText("N: Næste plukseddel", ConsoleColor.Green, defaultColor);
+                Console.WriteLine("(N) Næste plukseddel");
             }
-
-            PrintColoredText("G: Genindlæs pluksedler", ConsoleColor.Green, defaultColor);
+            Console.WriteLine("(G) Genindlæs pluksedler");
+            Console.WriteLine("\n(P) print alle vejledninger");
+            Console.ForegroundColor = Console.ForegroundColor;
         }
 
-        static void PrintColoredText(string text, ConsoleColor color, ConsoleColor defaultColor)
+        static void HandleUserInput(ref List<string> files, ref int currentIndex, char userInput, string importDirectory)
         {
-            Console.ForegroundColor = color;
-            Console.WriteLine(text);
-            Console.ForegroundColor = defaultColor;
-        }
-
-        static void HandleUserInput(ref int currentIndex, List<string> fileList, char userKey, ConsoleColor defaultColor, string addTemplatePath, string removeTemplatePath, string replaceModemTemplatePath)
-        {
-            Console.ForegroundColor = ConsoleColor.Red;
-            switch (userKey)
+            switch (char.ToUpper(userInput))
             {
                 case 'G':
-                    fileList = GetFileList();
+                    files = GetExportedFiles(@"C:\Users\HFGF\Downloads\test filer 2");
                     currentIndex = -1;
                     Console.WriteLine("Pluklister genindlæst");
                     break;
@@ -129,96 +137,197 @@ namespace Plukliste
                     if (currentIndex > 0) currentIndex--;
                     break;
                 case 'N':
-                    if (currentIndex < fileList.Count - 1) currentIndex++;
+                    if (currentIndex < files.Count - 1) currentIndex++;
                     break;
                 case 'A':
-                    ProcessFileOperation(fileList[currentIndex], addTemplatePath, UserOperation.Add);
+                    if (currentIndex >= 0 && currentIndex < files.Count)
+                    {
+                        MoveAndCompletePlukliste(files[currentIndex], importDirectory);
+                        files.Remove(files[currentIndex]);
+                        if (currentIndex == files.Count) currentIndex--;
+                    }
                     break;
-                case 'R':
-                    ProcessFileOperation(fileList[currentIndex], removeTemplatePath, UserOperation.Remove);
+                case 'P':
+                    GenerateAndPrintVejledninger(files);
                     break;
-                case 'M':
-                    ProcessFileOperation(fileList[currentIndex], replaceModemTemplatePath, UserOperation.ReplaceModem);
-                    break;
+
             }
-            Console.ForegroundColor = defaultColor;
         }
 
-        static void ProcessFileOperation(string filePath, string templatePath, UserOperation operation)
+        static string GetVejledningTemplate(Pluklist plukliste)
         {
-            string outputPath = Path.Combine("import", $"{Path.GetFileNameWithoutExtension(filePath)}_{operation}.html");
-            using (FileStream fileStream = File.OpenRead(filePath))
+            foreach (var line in plukliste.Lines)
             {
-                XmlSerializer serializer = new XmlSerializer(typeof(Pluklist));
-                Pluklist plukList = (Pluklist)serializer.Deserialize(fileStream);
-
-                if (plukList != null)
+                if (line.Type == ItemType.Print)
                 {
-                    GenerateHtmlGuide(plukList, templatePath, outputPath, operation);
+                    string[] splitProductID = line.ProductID.Split('-');
+                    if (splitProductID.Length > 1)
+                    {
+                        string vejledningType = splitProductID[1].ToUpper();
+                        switch (vejledningType)
+                        {
+                            case "OPGRADE":
+                                return File.ReadAllText(OpgadeVejledningTemplatePath);
+                            case "OPSIGELSE":
+                                return File.ReadAllText(OpsigelseVejledningTemplatePath);
+                            case "WELCOME":
+                                return File.ReadAllText(WelcomeVejledningTemplatePath);
+                        }
+                    }
+                }
+            }
+
+            throw new InvalidOperationException("Ingen passende vejledningstype fundet.");
+        }
+
+        static List<Pluklist> ReadDataFromFile(string filePath)
+        {
+            List<Pluklist> pluklists = new List<Pluklist>();
+
+            if (Path.GetExtension(filePath).Equals(".xml", StringComparison.OrdinalIgnoreCase))
+            {
+                // Read data from XML file
+                using (FileStream file = File.OpenRead(filePath))
+                {
+                    System.Xml.Serialization.XmlSerializer xmlSerializer =
+                        new System.Xml.Serialization.XmlSerializer(typeof(Pluklist));
+                    var pluklist = xmlSerializer.Deserialize(file) as Pluklist;
+                    if (pluklist != null)
+                    {
+                        pluklists.Add(pluklist);
+                    }
+                }
+            }
+            else if (Path.GetExtension(filePath).Equals(".csv", StringComparison.OrdinalIgnoreCase))
+            {
+                // Read data from CSV file
+                var records = ReadCsvFile(filePath);
+                foreach (var record in records)
+                {
+                    Pluklist pluklist = new Pluklist
+                    {
+                        Name = record.ProductId,
+                        Forsendelse = record.Type,
+                        Adresse = record.Description
+                    };
+
+                    Item line = new Item
+                    {
+                        ProductID = record.ProductId,
+                        Title = record.Description,
+                        Type = (ItemType)Enum.Parse(typeof(ItemType), record.Type),
+                        Amount = record.Amount
+                    };
+
+                    pluklist.AddItem(line);
+                    pluklists.Add(pluklist);
+                }
+            }
+            else
+            {
+                Console.WriteLine($"Unsupported file format: {filePath}");
+            }
+
+            return pluklists;
+        }
+
+        static List<CsvRecord.Record> ReadCsvFile(string filePath)
+        {
+            using (var reader = new StreamReader(filePath))
+            using (var csv = new CsvReader(reader, new CsvConfiguration(CultureInfo.InvariantCulture)
+            {
+                Delimiter = ";"
+            }))
+            {
+                csv.Context.RegisterClassMap<RecordMap>(); 
+                return csv.GetRecords<CsvRecord.Record>().ToList();
+            }
+        }
+
+
+        static void GenerateAndPrintVejledninger(List<string> files)
+        {
+            foreach (var filePath in files)
+            {
+                List<Pluklist> pluklists;
+                if (Path.GetExtension(filePath).Equals(".xml", StringComparison.OrdinalIgnoreCase))
+                {
+                    using (FileStream file = File.OpenRead(filePath))
+                    {
+                        System.Xml.Serialization.XmlSerializer xmlSerializer =
+                            new System.Xml.Serialization.XmlSerializer(typeof(Pluklist));
+                        var pluklist = xmlSerializer.Deserialize(file) as Pluklist;
+                        pluklists = new List<Pluklist> { pluklist };
+                    }
+                }
+                else if (Path.GetExtension(filePath).Equals(".csv", StringComparison.OrdinalIgnoreCase))
+                {
+                    pluklists = ReadDataFromFile(filePath);
+                }
+                else
+                {
+                    Console.WriteLine($"Unsupported file format: {filePath}");
+                    continue;
+                }
+
+                foreach (var plukliste in pluklists)
+                {
+                    bool vejledningGenereret = false;
+
+                    foreach (var line in plukliste.Lines)
+                    {
+                        if (line.Type == ItemType.Print)
+                        {
+                            string vejledningHtmlTemplate = GetVejledningTemplate(plukliste);
+                            string address = plukliste.Adresse;
+                            string name = plukliste.Name;
+
+                            string updatedHtmlContent = vejledningHtmlTemplate
+                                .Replace("[Adresse]", address)
+                                .Replace("[Name]", name)
+                                .Replace("[Plukliste]", GeneratePluklisteContent(plukliste));
+
+                            string outputFilePath = Path.Combine(OutputDirectory, $"{name}_Vejledning.html");
+                            File.WriteAllText(outputFilePath, updatedHtmlContent);
+                            Console.WriteLine($"Vejledning gemt: {outputFilePath}");
+
+                            vejledningGenereret = true;
+                            break; // Stop searching for more vejledninger when the first one is found
+                        }
+                    }
+
+                    if (!vejledningGenereret)
+                    {
+                        Console.WriteLine($"No vejledning found for plukliste: {plukliste.Name}");
+                    }
                 }
             }
         }
 
-        static void MoveFileToImportDirectory(string filePath)
+        static string GeneratePluklisteContent(Pluklist plukliste)
         {
-            string fileName = Path.GetFileName(filePath);
-            string destinationPath = Path.Combine("import", fileName);
-            File.Move(filePath, destinationPath);
-            Console.WriteLine($"Plukseddel {filePath} afsluttet.");
-        }
+            StringBuilder pluklisteContent = new StringBuilder();
 
-        static void GenerateHtmlGuide(Pluklist plukList, string templatePath, string outputPath, UserOperation operation)
-        {
-            string htmlContent = File.ReadAllText(templatePath);
+            pluklisteContent.AppendLine($"{plukliste.Name}");
+            pluklisteContent.AppendLine($"Forsendelse: {plukliste.Forsendelse}");
+            pluklisteContent.AppendLine("\n{0,-7}{1,-9}{2,-20}{3}");
 
-            switch (operation)
+            foreach (var item in plukliste.Lines)
             {
-                case UserOperation.Add:
-                    // Tilføjelse af forsendelse
-                    htmlContent = htmlContent.Replace("[Name]", plukList.Name ?? "N/A");
-                    htmlContent = htmlContent.Replace("[Forsendelse]", plukList.Forsendelse ?? "N/A");
-                    htmlContent = htmlContent.Replace("[Plukliste]", string.Join(", ", plukList.Lines.Select(l => l.ProductID))); 
-                    break;
-
-                case UserOperation.Remove:
-                    // Fjernelse af forsendelse
-                    htmlContent = htmlContent.Replace("[Name]", plukList.Name ?? "N/A");
-                    htmlContent = htmlContent.Replace("[Forsendelse]", "Forsendelse fjernet");
-                    htmlContent = htmlContent.Replace("[Plukliste]", "Intet at plukke, forsendelse fjernet.");
-                    break;
-
-                case UserOperation.ReplaceModem:
-                    // Udsiftning af modem
-                    htmlContent = htmlContent.Replace("[Name]", plukList.Name ?? "N/A");
-                    htmlContent = htmlContent.Replace("[Forsendelse]", plukList.Forsendelse ?? "N/A");
-                    htmlContent = htmlContent.Replace("[Plukliste]", "Modem er udskiftet. Send venligst det gamle modem retur indenfor 14 dage.");
-                    break;
+                pluklisteContent.AppendLine($"{item.Amount,-7}{item.Type,-9}{item.ProductID,-20}{item.Title}");
             }
 
-            File.WriteAllText(outputPath, htmlContent);
+            return pluklisteContent.ToString();
         }
 
+        static void MoveAndCompletePlukliste(string filePath, string importDirectory)
+        {
+            var fileName = Path.GetFileName(filePath);
+            if (fileName != null)
+            {
+                File.Move(filePath, Path.Combine(importDirectory, fileName));
+                Console.WriteLine($"Plukseddel {fileName} afsluttet.");
+            }
+        }
     }
-
 }
-public class Pluklist
-{
-    public string Name { get; set; }
-    public string Forsendelse { get; set; }
-    public List<Line> Lines { get; set; }
-}
-
-public class Line
-{
-    public string Amount { get; set; }
-    public string Type { get; set; }
-    public string ProductID { get; set; }
-    public string Title { get; set; }
-}
-public enum UserOperation
-{
-    Add,
-    Remove,
-    ReplaceModem
-}
-
