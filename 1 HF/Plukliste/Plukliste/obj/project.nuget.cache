@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yyU2Ve8pOewVCJ92uVZA+NuVcoXU53DyBm5A65ZnGflCcf3gWYKu1s5pUHM5b/4d8kOvs8oPzkC71PzHkIw4tA==",
+  "dgSpecHash": "0vvWLIF0LhtNiDBtn5gz+jxrd1oPDyLSnlWhHglqbZXe7ua7riMIp1ICXhf39ARvC9GoVsD791TVYC4YKG8UYg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HFGF\\Source\\Repos\\rolfVejsig\\1-HF\\1 HF\\Plukliste\\Plukliste\\Plukliste.csproj",
+  "projectFilePath": "C:\\Users\\HFGF\\source\\repos\\rolfVejsig\\1-HF\\1 HF\\Plukliste\\Plukliste\\Plukliste.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HFGF\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512"
   ],

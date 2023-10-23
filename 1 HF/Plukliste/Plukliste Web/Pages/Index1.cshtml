@@ -1,0 +1,41 @@
+﻿@page
+@model List<Customer>
+
+@{
+    ViewData["Title"] = "Customers and Products";
+}
+
+<h1 class="mt-5 mb-4">Customers and Products</h1>
+
+<div class="container">
+    <table class="table table-bordered">
+        <thead class="thead-dark">
+            <tr>
+                <th>Name</th>
+                <th>Shipment</th>
+                <th>Products</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var customer in Model)
+            {
+                <tr>
+                    <td>@customer.Name</td>
+                    <td>@customer.Shipment</td>
+                    <td>
+                        <ul class="list-group">
+                            @foreach (var product in customer.Products)
+                            {
+                                <li class="list-group-item">
+                                    <span class="badge badge-secondary">@product.Amount x</span>
+                                    @product.Name <br />
+                                    <small>Type: @product.Type, Product Number: @product.ProductNumber</small>
+                                </li>
+                            }
+                        </ul>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

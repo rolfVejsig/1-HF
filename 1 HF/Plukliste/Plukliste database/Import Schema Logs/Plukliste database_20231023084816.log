@@ -1,0 +1,88 @@
+23-10-2023 10:48:16	This log contains information about the import schema operation into project 'Plukliste database' on computer 'DESKTOP-3T5FOIJ' by user 'HFGF'.
+23-10-2023 10:48:16	Import of database schema has started.
+23-10-2023 10:48:24	Gathering database credentials
+23-10-2023 10:48:24	Gathering database options
+23-10-2023 10:48:24	Gathering generic database scoped configuration option
+23-10-2023 10:48:24	Gathering users
+23-10-2023 10:48:24	Gathering roles
+23-10-2023 10:48:24	Gathering application roles
+23-10-2023 10:48:24	Gathering role memberships
+23-10-2023 10:48:24	Gathering filegroups
+23-10-2023 10:48:24	Gathering full-text catalogs
+23-10-2023 10:48:24	Gathering assemblies
+23-10-2023 10:48:24	Gathering certificates
+23-10-2023 10:48:24	Gathering asymmetric keys
+23-10-2023 10:48:24	Gathering symmetric keys
+23-10-2023 10:48:24	Gathering encrypted symmetric keys
+23-10-2023 10:48:24	Gathering schemas
+23-10-2023 10:48:24	Gathering XML schema collections
+23-10-2023 10:48:24	Gathering user-defined data types
+23-10-2023 10:48:24	Gathering user-defined types
+23-10-2023 10:48:24	Gathering table types
+23-10-2023 10:48:24	Gathering unique keys for table types
+23-10-2023 10:48:24	Gathering primary keys for table types
+23-10-2023 10:48:24	Gathering indexes for table types
+23-10-2023 10:48:24	Gathering check constraints for table types
+23-10-2023 10:48:24	Gathering default constraints for table types
+23-10-2023 10:48:24	Gathering partition functions
+23-10-2023 10:48:24	Gathering partition schemes
+23-10-2023 10:48:24	Gathering functions
+23-10-2023 10:48:24	Gathering encrypted functions
+23-10-2023 10:48:24	Gathering aggregates
+23-10-2023 10:48:24	Gathering procedures
+23-10-2023 10:48:24	Gathering encrypted procedures
+23-10-2023 10:48:24	Gathering tables
+23-10-2023 10:48:24	Gathering primary keys
+23-10-2023 10:48:25	Gathering unique constraints
+23-10-2023 10:48:25	Gathering foreign keys
+23-10-2023 10:48:25	Gathering default constraints
+23-10-2023 10:48:25	Gathering check constraints
+23-10-2023 10:48:25	Gathering views
+23-10-2023 10:48:25	Gathering encrypted views
+23-10-2023 10:48:25	Gathering indexes
+23-10-2023 10:48:25	Gathering statistics
+23-10-2023 10:48:25	Gathering full-text index stoplists
+23-10-2023 10:48:25	Gathering search property lists
+23-10-2023 10:48:25	Gathering search properties
+23-10-2023 10:48:25	Gathering full-text indexes
+23-10-2023 10:48:25	Gathering column store indexes
+23-10-2023 10:48:25	Gathering spatial indexes
+23-10-2023 10:48:25	Gathering XML indexes
+23-10-2023 10:48:25	Gathering Selective XML indexes
+23-10-2023 10:48:25	Gathering encrypted triggers
+23-10-2023 10:48:25	Gathering triggers
+23-10-2023 10:48:25	Gathering encrypted and clr ddl triggers
+23-10-2023 10:48:25	Gathering ddl triggers
+23-10-2023 10:48:25	Creating edge constraints
+23-10-2023 10:48:25	Gathering synonyms
+23-10-2023 10:48:25	Gathering defaults
+23-10-2023 10:48:25	Gathering data constraint uddt bindings
+23-10-2023 10:48:25	Gathering rules
+23-10-2023 10:48:25	Gathering data constraint uddt bindings
+23-10-2023 10:48:25	Gathering message types
+23-10-2023 10:48:25	Gathering queues
+23-10-2023 10:48:25	Gathering contracts
+23-10-2023 10:48:25	Gathering services
+23-10-2023 10:48:25	Gathering event notifications
+23-10-2023 10:48:25	Gathering remote service bindings
+23-10-2023 10:48:25	Gathering broker priorities
+23-10-2023 10:48:25	Gathering signatures
+23-10-2023 10:48:25	Gathering compression options
+23-10-2023 10:48:25	Gathering sequence types
+23-10-2023 10:48:25	Gathering security policies
+23-10-2023 10:48:25	Gather column encryption keys
+23-10-2023 10:48:25	Gathering column master keys
+23-10-2023 10:48:25	Gathering external data sources
+23-10-2023 10:48:25	Gathering external file formats
+23-10-2023 10:48:25	Gathering external tables
+23-10-2023 10:48:25	Gathering XML index compression options
+23-10-2023 10:48:25	Gathering extended properties
+23-10-2023 10:48:25	Gathering assemblies
+23-10-2023 10:48:25	Gathering credentials
+23-10-2023 10:48:25	Gathering logins
+23-10-2023 10:48:25	Gathering server audits
+23-10-2023 10:48:25	Scanning project for duplicate elements
+23-10-2023 10:48:25	Finished duplicate element processing
+23-10-2023 10:48:25	Finished importing database.
+23-10-2023 10:48:25	A summary of the import was saved to the following location: C:\Users\HFGF\Source\Repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste database\Import Schema Logs\Plukliste database_20231023084816.log
+23-10-2023 10:48:25	Click Finish to continue...
