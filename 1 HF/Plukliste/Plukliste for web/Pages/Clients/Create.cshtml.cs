@@ -37,7 +37,7 @@ namespace Plukliste_for_web.Pages.Clients
             }
 
 
-            try
+			try
             {
                 String  connectionString = "Data Source=DESKTOP-3T5FOIJ;Initial Catalog=Pluklist;Integrated Security=True";
                 using (SqlConnection connection = new SqlConnection(connectionString))
@@ -58,9 +58,9 @@ namespace Plukliste_for_web.Pages.Clients
 
                         command.ExecuteNonQuery();
                     }
-                } 
-            }
-            catch (Exception ex)
+                }
+			}
+			catch (Exception ex)
             {
                 errorMessage = ex.Message;
                 return;
