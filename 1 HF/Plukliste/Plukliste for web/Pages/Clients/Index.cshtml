@@ -1,0 +1,39 @@
+﻿@page
+@model Plukliste_for_web.Pages.Clients.IndexModel
+@{
+}
+
+<h2>Plukliste</h2>
+<a class="btn btn-primary btn-sm" href="/Clients/Create">Ny plukliste</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Antal</th>
+            <th>Type</th>
+            <th>Produktnr</th>
+            <th>Navn</th>
+            <th>Name</th>
+            <th>Forsendelse</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model.listClients)
+        {
+            <tr>
+                <td>@item.ID</td>
+                <td>@item.Antal</td>
+                <td>@item.Type</td>
+                <td>@item.Produktnr</td>
+                <td>@item.Navn</td>
+                <td>@item.Name</td>
+                <td>@item.Forsendelse</td>
+                <td>
+                    <a class="btn btn-primary btn-sm" href="/Clients/Edit?id=@item.ID">Edit</a>
+                    <a class="btn btn-primary btn-sm" href="/Clients/Delete?id=@item.ID">Delete</a>
+                    
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

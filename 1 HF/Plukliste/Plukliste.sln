@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plukliste", "Plukliste\Plukliste.csproj", "{671D7A1A-6450-4E63-9EF4-AC220571293F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plukliste for web", "Plukliste for web\Plukliste for web.csproj", "{0BEE26B6-0026-4850-A893-6FE60A3746EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{671D7A1A-6450-4E63-9EF4-AC220571293F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{671D7A1A-6450-4E63-9EF4-AC220571293F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{671D7A1A-6450-4E63-9EF4-AC220571293F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BEE26B6-0026-4850-A893-6FE60A3746EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BEE26B6-0026-4850-A893-6FE60A3746EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BEE26B6-0026-4850-A893-6FE60A3746EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BEE26B6-0026-4850-A893-6FE60A3746EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

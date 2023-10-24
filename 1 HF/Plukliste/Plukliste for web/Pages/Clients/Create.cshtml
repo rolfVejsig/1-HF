@@ -1,0 +1,64 @@
+﻿@page
+@model Plukliste_for_web.Pages.Clients.CreateModel
+@{
+}
+
+<br />
+<h2>Ny Plukliste</h2>
+
+@if (Model.errorMessage.Length > 0)
+{
+    <div class = 'alert alert-warning alert-dismissible fade show' role='alert'> 
+        <strong>´@Model.errorMessage</strong>
+        <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
+    </div>
+}
+
+<form method="post">
+    <div class="form-group row">
+        <label class="col-sm-3 col-form-label">Antal</label>
+        <div class="col-sm-9">
+            <input type="text" class="form-control" name="antal" value="" />
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-3 col-form-label">Type</label>
+        <div class="col-sm-9">
+            <input type="text" class="form-control" name="type" value="" />
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-3 col-form-label">Produktnr</label>
+        <div class="col-sm-9">
+            <input type="text" class="form-control" name="Produktnr" value="" />
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-3 col-form-label">Navn</label>
+        <div class="col-sm-9">
+            <input type="text" class="form-control" name="navn" value="" />
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-3 col-form-label">Name</label>
+        <div class="col-sm-9">
+            <input type="text" class="form-control" name="name" value="" />
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-3 col-form-label">Forsendelse</label>
+        <div class="col-sm-9">
+            <input type="text" class="form-control" name="Forsendelse" value="" />
+        </div>
+    </div>
+    <div>
+        <div class="offset-sm-3 col-sm-3 d-grid">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+        <div>
+            <div class=" col-sm-3 d-grip">
+                <a class="btn btn-outline-primary" href="/" role="button">Cancel</a>
+            </div>
+        </div>
+    </div>
+</form>

@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HFGF\\source\\repos\\rolfVejsig\\1-HF\\1 HF\\Plukliste\\Plukliste\\Plukliste.csproj": {}
+    "C:\\Users\\HFGF\\Source\\Repos\\rolfVejsig\\1-HF\\1 HF\\Plukliste\\Plukliste\\Plukliste.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HFGF\\source\\repos\\rolfVejsig\\1-HF\\1 HF\\Plukliste\\Plukliste\\Plukliste.csproj": {
+    "C:\\Users\\HFGF\\Source\\Repos\\rolfVejsig\\1-HF\\1 HF\\Plukliste\\Plukliste\\Plukliste.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HFGF\\source\\repos\\rolfVejsig\\1-HF\\1 HF\\Plukliste\\Plukliste\\Plukliste.csproj",
+        "projectUniqueName": "C:\\Users\\HFGF\\Source\\Repos\\rolfVejsig\\1-HF\\1 HF\\Plukliste\\Plukliste\\Plukliste.csproj",
         "projectName": "Plukliste",
-        "projectPath": "C:\\Users\\HFGF\\source\\repos\\rolfVejsig\\1-HF\\1 HF\\Plukliste\\Plukliste\\Plukliste.csproj",
+        "projectPath": "C:\\Users\\HFGF\\Source\\Repos\\rolfVejsig\\1-HF\\1 HF\\Plukliste\\Plukliste\\Plukliste.csproj",
         "packagesPath": "C:\\Users\\HFGF\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\HFGF\\source\\repos\\rolfVejsig\\1-HF\\1 HF\\Plukliste\\Plukliste\\obj\\",
         "projectStyle": "PackageReference",

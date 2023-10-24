@@ -1,0 +1,39 @@
+C:\Users\HFGF\Source\Repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste for web\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\HFGF\Source\Repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste for web\bin\Debug\net6.0\appsettings.json
+C:\Users\HFGF\Source\Repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste for web\bin\Debug\net6.0\Plukliste for web.staticwebassets.runtime.json
+C:\Users\HFGF\Source\Repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste for web\bin\Debug\net6.0\Plukliste for web.exe
+C:\Users\HFGF\Source\Repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste for web\bin\Debug\net6.0\Plukliste for web.deps.json
+C:\Users\HFGF\Source\Repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste for web\bin\Debug\net6.0\Plukliste for web.runtimeconfig.json
+C:\Users\HFGF\Source\Repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste for web\bin\Debug\net6.0\Plukliste for web.dll
+C:\Users\HFGF\Source\Repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste for web\bin\Debug\net6.0\Plukliste for web.pdb
+C:\Users\HFGF\Source\Repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste for web\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\HFGF\Source\Repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste for web\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\HFGF\Source\Repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste for web\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\HFGF\Source\Repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste for web\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\HFGF\Source\Repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste for web\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\HFGF\Source\Repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste for web\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\HFGF\Source\Repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste for web\obj\Debug\net6.0\Plukliste for web.csproj.AssemblyReference.cache
+C:\Users\HFGF\Source\Repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste for web\obj\Debug\net6.0\Plukliste for web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HFGF\Source\Repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste for web\obj\Debug\net6.0\Plukliste for web.AssemblyInfoInputs.cache
+C:\Users\HFGF\Source\Repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste for web\obj\Debug\net6.0\Plukliste for web.AssemblyInfo.cs
+C:\Users\HFGF\Source\Repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste for web\obj\Debug\net6.0\Plukliste for web.csproj.CoreCompileInputs.cache
+C:\Users\HFGF\Source\Repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste for web\obj\Debug\net6.0\Plukliste for web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HFGF\Source\Repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste for web\obj\Debug\net6.0\Plukliste for web.RazorAssemblyInfo.cache
+C:\Users\HFGF\Source\Repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste for web\obj\Debug\net6.0\Plukliste for web.RazorAssemblyInfo.cs
+C:\Users\HFGF\Source\Repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste for web\obj\Debug\net6.0\staticwebassets\msbuild.Plukliste for web.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\HFGF\Source\Repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste for web\obj\Debug\net6.0\staticwebassets\msbuild.build.Plukliste for web.props
+C:\Users\HFGF\Source\Repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste for web\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Plukliste for web.props
+C:\Users\HFGF\Source\Repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste for web\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Plukliste for web.props
+C:\Users\HFGF\Source\Repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste for web\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\HFGF\Source\Repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste for web\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\HFGF\Source\Repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste for web\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\HFGF\Source\Repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste for web\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\HFGF\Source\Repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste for web\obj\Debug\net6.0\scopedcss\bundle\Plukliste for web.styles.css
+C:\Users\HFGF\Source\Repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste for web\obj\Debug\net6.0\scopedcss\projectbundle\Plukliste for web.bundle.scp.css
+C:\Users\HFGF\Source\Repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste for web\obj\Debug\net6.0\Plukliste for web.csproj.CopyComplete
+C:\Users\HFGF\Source\Repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste for web\obj\Debug\net6.0\Plukliste for web.dll
+C:\Users\HFGF\Source\Repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste for web\obj\Debug\net6.0\refint\Plukliste for web.dll
+C:\Users\HFGF\Source\Repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste for web\obj\Debug\net6.0\Plukliste for web.pdb
+C:\Users\HFGF\Source\Repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste for web\obj\Debug\net6.0\Plukliste for web.genruntimeconfig.cache
+C:\Users\HFGF\Source\Repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste for web\obj\Debug\net6.0\ref\Plukliste for web.dll
+C:\Users\HFGF\Source\Repos\rolfVejsig\1-HF\1 HF\Plukliste\Plukliste for web\bin\Debug\net6.0\Newtonsoft.Json.dll

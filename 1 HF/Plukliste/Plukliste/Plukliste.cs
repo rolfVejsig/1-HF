@@ -12,7 +12,7 @@ namespace Plukliste
 {
     class PluklisteProgram
     {
-        const string OpgadeVejledningTemplatePath = @"C:\Users\HFGF\Downloads\templatesPRINT-OPGRADE.html";
+        const string OpgadeVejledningTemplatePath = @"C:\Users\HFGF\Downloads\templates\PRINT-OPGRADE.html";
         const string OpsigelseVejledningTemplatePath = @"C:\Users\HFGF\Downloads\templates\PRINT-OPSIGELSE.html";
         const string WelcomeVejledningTemplatePath = @"C:\Users\HFGF\Downloads\templates\PRINT-WELCOME.html";
         const string OutputDirectory = @"C:\Users\HFGF\Downloads\Vejledninger";

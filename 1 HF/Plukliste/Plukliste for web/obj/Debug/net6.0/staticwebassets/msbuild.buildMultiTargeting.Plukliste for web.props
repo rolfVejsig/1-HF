@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Plukliste for web.props" />
+</Project>
