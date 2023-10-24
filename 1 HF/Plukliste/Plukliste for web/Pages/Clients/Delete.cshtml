@@ -1,0 +1,27 @@
+﻿@page
+@using System.Data.SqlClient
+@{
+	try
+	{
+		String ID = Request.Query["ID"];
+
+		string connectionString = "Data Source=DESKTOP-3T5FOIJ;Initial Catalog=Pluklist;Integrated Security=True";
+		using (SqlConnection connection = new SqlConnection(connectionString))
+		{
+			connection.Open();
+
+			String sql = "DELETE FROM orders WHERE ID=@ID";
+			using(SqlCommand command = new SqlCommand(sql, connection))
+			{
+				command.Parameters.AddWithValue("@ID", ID);
+
+				command.ExecuteNonQuery();
+			}
+		}
+	} catch(Exception ex)
+	{
+
+	}
+
+	Response.Redirect("/Clients/Index");
+}

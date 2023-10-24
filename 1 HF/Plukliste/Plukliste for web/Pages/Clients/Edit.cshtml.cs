@@ -27,7 +27,6 @@ namespace Plukliste_for_web.Pages.Clients
                         {
                             if (reader.Read())
                             {
-                                clientInfo.ID = "" + reader.GetInt32(0);
                                 clientInfo.Antal = "" + reader.GetInt32(1);
                                 clientInfo.Type = reader.GetString(2);
                                 clientInfo.Produktnr = reader.GetString(3);
@@ -69,11 +68,12 @@ namespace Plukliste_for_web.Pages.Clients
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();
-                    String sql = "UPDATE clients " +
+                    String sql = "UPDATE Orders " +
                                 "SET Antal=@Antal, Type=@Type,Produktnr=@Produktnr,Navn=@Navn,name=@Name " +
                                 "WHERE ID=@ID";
                     using (SqlCommand command = new SqlCommand(sql, connection))
                     {
+                        command.Parameters.AddWithValue("@ID", clientInfo.Antal);
                         command.Parameters.AddWithValue("@Antal", clientInfo.Antal);
                         command.Parameters.AddWithValue("@Type", clientInfo.Type);
                         command.Parameters.AddWithValue("@Produktnr", clientInfo.Produktnr);
@@ -92,6 +92,8 @@ namespace Plukliste_for_web.Pages.Clients
                 errorMessage = ex.Message;
                 return;
             }
+
+            Response.Redirect("/Clients/Index");
         }
     }
 }
