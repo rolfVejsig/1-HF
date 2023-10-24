@@ -1,10 +1,10 @@
 ﻿@page
-@model Plukliste_for_web.Pages.Clients.CreateModel
+@model Plukliste_for_web.Pages.Clients.EditModel
 @{
 }
 
 <br />
-<h2>Ny Plukliste</h2>
+<h2>Rediger Plukliste</h2>
 
 @if (Model.errorMessage.Length > 0)
 {
@@ -15,6 +15,7 @@
 }
 
 <form method="post">
+    <input type="hidden" name="ID" value="Model.clientinfo.ID"></input>
     <div class="form-group row">
         <label class="col-sm-3 col-form-label">Antal</label>
         <div class="col-sm-9">

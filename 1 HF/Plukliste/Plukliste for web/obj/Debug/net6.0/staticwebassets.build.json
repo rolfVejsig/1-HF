@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "n7NEKPd6LAQCHPjJRdO39mf3BS61YdKPqWzFOSmxSRg=",
+  "Hash": "swEAzkRW2J2qUbnWWkqdIoEYxfyOQSaGyoCREmhvQzs=",
   "Source": "Plukliste for web",
   "BasePath": "_content/Plukliste for web",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\HFGF\\Source\\Repos\\rolfVejsig\\1-HF\\1 HF\\Plukliste\\Plukliste for web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Plukliste for web.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\HFGF\\Source\\Repos\\rolfVejsig\\1-HF\\1 HF\\Plukliste\\Plukliste for web\\wwwroot\\clientInfo.json",
+      "SourceId": "Plukliste for web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HFGF\\Source\\Repos\\rolfVejsig\\1-HF\\1 HF\\Plukliste\\Plukliste for web\\wwwroot\\",
+      "BasePath": "_content/Plukliste for web",
+      "RelativePath": "clientInfo.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\clientInfo.json"
     },
     {
       "Identity": "C:\\Users\\HFGF\\Source\\Repos\\rolfVejsig\\1-HF\\1 HF\\Plukliste\\Plukliste for web\\wwwroot\\css\\site.css",

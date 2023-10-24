@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Plukliste for web.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\HFGF\\Source\\Repos\\rolfVejsig\\1-HF\\1 HF\\Plukliste\\Plukliste for web\\wwwroot\\clientInfo.json",
+      "PackagePath": "staticwebassets\\clientInfo.json"
+    },
+    {
       "Id": "C:\\Users\\HFGF\\Source\\Repos\\rolfVejsig\\1-HF\\1 HF\\Plukliste\\Plukliste for web\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
